@@ -8,9 +8,9 @@ import './error.scss'
 export default function Error() {
   return (
     <div className='error-body'>
-        <Link className='error-body-title-link' to='/home'>
-          <h1 className='error-body-title'>La page n'existe pas</h1>
-        </Link>
+      <Link className='error-body-title-link' to='/home'>
+        <h1 className='error-body-title'>La page n'existe pas</h1>
+      </Link>
       <img className='error-body-pic' src={failureBig} alt="code erreur" />
       <div className='error-body-ctn'>
         <button className='error-body-btn'>
