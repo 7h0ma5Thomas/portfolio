@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Page2() {
   return (
-    <div>page2</div>
+    <div>page2 à réaliser</div>
   )
 }
